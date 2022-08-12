@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScreenActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:text="Survive !"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/play" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:textSize="64sp"
+        android:layout_centerInParent="true"
+        android:textColor="#ffffff"
+        android:id="@+id/play"/>
+
+    <TextView
+        android:id="@+id/mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mode"
+        android:textColor="#ffffff"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="75px"
+        android:layout_below="@id/play"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="34sp"
+        android:textColor="#ffffff"
+        android:text="High Score:"
+        android:id="@+id/highscoretext"
+        android:layout_margin="25px"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="34sp"
+        android:textColor="#ffffff"
+        android:text="Mode Score:"
+        android:id="@+id/modescoretext"
+        android:layout_margin="25px"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/highscoretext"
+        />
+
+    <TextView
+        android:id="@+id/highscoresetter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25px"
+        android:layout_marginTop="25px"
+        android:layout_marginEnd="25px"
+        android:layout_marginBottom="25px"
+        android:text="Reset MVP"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/alien" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="169dp"
+        android:src="@drawable/alienboss" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/strongalien"/>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="500dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/spaceshipright" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="500dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/spiral" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="600dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/blackhole" />
+
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="570dp"
+        android:layout_marginTop="320dp"
+        android:rotation="90"
+        android:src="@drawable/rocket" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="650dp"
+        android:layout_marginTop="320dp"
+        android:src="@drawable/laser" />
+
+    <ImageView
+        android:id="@+id/volumeCtrl"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/volume_up" />
+
+
+
+</RelativeLayout>
